@@ -50,5 +50,13 @@
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
       <Value Profile="(Default)">Data Source=MSI\SQLEXPRESS;Initial Catalog=BatOnBookStore;Integrated Security=True</Value>
     </Setting>
+    <Setting Name="BatOnBookStoreConnectionString6" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=HUY\HUYSQL;Initial Catalog=BatOnBookStore;User ID=sa;Password=1092003tnhuy&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=HUY\HUYSQL;Initial Catalog=BatOnBookStore;User ID=sa;Password=1092003tnhuy</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

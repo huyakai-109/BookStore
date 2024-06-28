@@ -46,6 +46,7 @@ namespace Nha_Sach_Desktop.UI
                 txtSLnhap.Text = dgvCTPN.Rows[index].Cells[2].Value.ToString();
                 txtTongTien.Text = dgvCTPN.Rows[index].Cells[4].Value.ToString();
                 txtTenSach.Text = dgvCTPN.Rows[index].Cells[5].Value.ToString();
+                txtMaPN.ReadOnly = true;
             }
             catch
             {
